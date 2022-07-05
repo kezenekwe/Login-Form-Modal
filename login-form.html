@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Login Form</title>
+    <link rel="stylesheet" href="login-form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h2>Modal Login Form</h2>
+    <button class="open-modal">Login</button>
+    <br>
+    <br>
+    <div class="overlay">
+        <form class="modal">
+                <button class="close"><i class="fa fa-fw fa-close"></i></button>
+                <div class="img-container">
+                    <img src="avatar.png" alt="avatar image">
+                </div>
+                <div class="input-container">
+                    <label for="" class="label one">Username</label>
+                    <input type="text" class="input" placeholder="  Enter Username">
+                    <label for="" class="label two">Password</label>
+                    <input type="text" class="input" placeholder="  Enter Password">
+                <input type="button" class="login" value="Login">
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox">
+                    <label for="">Remember me?</label>
+                </div>
+                <div class="bottom">
+                    <button class="cancel">Cancel</button>
+                    <p class="forgot">Forgot <a href="#">password?</a></p>
+                </div>
+            </form>
+    </div>
+    
+<script src="login-form.js"></script>
+</body>
+</html>
